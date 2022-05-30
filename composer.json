@@ -1,0 +1,67 @@
+{
+    "name": "webazain/laravel-payment",
+    "homepage": "https://github.com/larabook/gateway",
+    "description": "A Laravel package for connecting to all Iraninan payment  gateways",
+    "keywords": [
+        "laravel",
+        "paypal",
+        "iran",
+        "payment",
+        "gateway",
+        "port",
+        "bank",
+        "pay",
+        "mellat",
+        "saman",
+        "pasargad",
+        "parsian",
+        "sadad",
+        "meli",
+        "payline",
+        "jahanpay",
+        "zarinpal",
+        "iranian-banks",
+        "persian-banks",
+        "pardakht",
+        "dargah",
+        "shaparak",
+        "poolport",
+        "ipay",
+        "asan-pardakht",
+        "pay-ir",
+        "paypal",
+        "webazin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "webazin.net",
+            "email": "info@webazin.net"
+        },
+        {
+            "name": "mahdi farhadpour",
+            "email": "farhadpour4187@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "*",
+        "paypal/rest-api-sdk-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webazin\\LaravelPayment\\": "src/",
+            "Webazin\\LaravelPayment\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webazin\\LaravelPayment\\GatewayServiceProvider"
+            ],
+            "aliases": {
+                "Gateway": "Webazin\\LaravelPayment\\Gateway"
+            }
+        }
+    }
+}
