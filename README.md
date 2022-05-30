@@ -32,7 +32,7 @@
 
 ```php
 
-composer require larabook/gateway
+composer require webazin/laravel-payment
 
 ```   
 

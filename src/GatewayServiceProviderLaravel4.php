@@ -29,7 +29,7 @@ class GatewayServiceProviderLaravel4 extends ServiceProvider
 
 
         // for laravel 4.2
-        $this->package('larabook/gateway',null,__DIR__.'/../');
+        $this->package('webazin/laravel-payment',null,__DIR__.'/../');
 
 
 		if (

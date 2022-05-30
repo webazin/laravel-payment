@@ -1,6 +1,6 @@
 {
     "name": "webazain/laravel-payment",
-    "homepage": "https://github.com/larabook/gateway",
+    "homepage": "https://github.com/webazin/laravel-payment",
     "description": "A Laravel package for connecting to all Iraninan payment  gateways",
     "keywords": [
         "laravel",
