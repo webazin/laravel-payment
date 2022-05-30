@@ -53,7 +53,7 @@
             "Webazin\\LaravelPayment\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev-main",
+    "minimum-stability": "v1.0.0",
     "extra": {
         "laravel": {
             "providers": [
