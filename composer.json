@@ -52,7 +52,7 @@
             "Webazin\\LaravelPayment\\": "src/",
             "Webazin\\LaravelPayment\\Tests\\": "tests/"
         }
-    }
+    },
     "extra": {
         "laravel": {
             "providers": [
