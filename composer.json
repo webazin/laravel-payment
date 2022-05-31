@@ -52,8 +52,7 @@
             "Webazin\\LaravelPayment\\": "src/",
             "Webazin\\LaravelPayment\\Tests\\": "tests/"
         }
-    },
-    "minimum-stability": "RC",
+    }
     "extra": {
         "laravel": {
             "providers": [
